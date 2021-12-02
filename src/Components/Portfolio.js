@@ -22,10 +22,13 @@ const Portfolio = () => {
           className='p72'
           src={p72}
           alt='Project 72'
+          
         />
         <p>
-          Alien vs. Editor Mintbean Hackaton Project built using React with
-          basic CRUD and authentication elements.
+          Fully Functional Monetized Japan Travel Blog 
+          Live Data Flight Search
+          Live Data Hotel Search 
+          Get Paid for Purchased Items via Affiliate Links
         </p>
         <a
           href='/'
@@ -53,7 +56,7 @@ const Portfolio = () => {
       config: {
         titleBar: {
           enable: true,
-          text: 'Text Editor | Mintbean Hackathon project'
+          text: 'Text Editor | Project 72'
         },
         fadeIn: true,
         fadeInSpeed: 500
@@ -74,7 +77,7 @@ const Portfolio = () => {
           >
             <img
               src={p72}
-              alt='Sportsfan Cafe Project...'
+              alt='p72'
               className='portfolio-image'
             />
             <div className='overflow'></div>

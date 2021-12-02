@@ -29,7 +29,7 @@ function App() {
         }
       },
       number: {
-        value: 200
+        value: 100
       },
       size: {
         value: 8

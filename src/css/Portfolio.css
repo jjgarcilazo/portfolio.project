@@ -2,7 +2,9 @@
     --primary-light-grey: #f4f4f4;
     --primary-green: #6bd425;
   }
-  
+  .p72 {
+    max-width: 40%;
+    }
   /* ***************** Portfolio **************************** */
   .portfolio-wrapper {
     background: var(--primary-light-grey);
@@ -22,6 +24,7 @@
   .portfolio-image-box {
     position: relative;
     margin: 1rem;
-    size: 25;
+    max-width: 100%;
+  max-height: 100%;
   }
   

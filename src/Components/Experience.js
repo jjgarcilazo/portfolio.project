@@ -11,8 +11,13 @@ const Experience = () => {
         <div className='timeline-block timeline-block-left'>
           <div className='marker'></div>
           <div className='timeline-content'>
-            <h3>2021</h3>
-            <p>Freelance Web Developer</p>
+            <h3>2021-Present</h3>
+            <p>Remote Freelance Web Developer
+               &emsp;&ensp;               
+               Worldwide             
+
+
+            </p>
             <ul>
               <li>
                 Advertised via Fiver App to Contract work
@@ -38,7 +43,7 @@ const Experience = () => {
                &emsp;&ensp;
                &emsp;&ensp;
                Nucamp Coding Bootcamp
-               &emsp;&ensp;Los Angeles,CA
+               &emsp;&ensp;Los Angeles, CA
             </p>
             <ul>
               <li>
@@ -63,8 +68,8 @@ const Experience = () => {
         <div className='timeline-block timeline-block-left'>
           <div className='marker'></div>
           <div className='timeline-content'>
-            <h3>2021</h3>
-            <p>Code Academy&emsp;&ensp;Web Development  &emsp;&ensp;Los Angeles,CA</p>
+            <h3>2020-2021</h3>
+            <p>Code Academy&emsp;&ensp;Web Development  &emsp;&ensp;Los Angeles, CA</p>
             <ul>
               <li>
               -Successfully completed intensive 12 week full immersion bootcamp representing more than 660 hours of training.
