@@ -1,3 +1,4 @@
+
 :root {
     --primary-white: #e2e2e2;
     --primary-green: #6bd425;
@@ -8,6 +9,7 @@
   /* ***************** Header **************************** */
   
   .header-wrapper {
+    
     position: relative;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)),
       url('../assets/images/laptop-background.jpg') no-repeat;
@@ -33,12 +35,16 @@
   .main-info h1 {
     color: var(--primary-green);
     text-transform: uppercase;
+    font-weight: bolder;
+   
   }
   
   /* --- Typed TEXT ---  */
   .typed-text {
     font-size: 2rem;
-    color: var(--primary-white);
+    color: var(--primary-green);
+    font-weight: bold;
+    font-family: Bebas Neue;
   }
   
   @media (max-width: 768px) {

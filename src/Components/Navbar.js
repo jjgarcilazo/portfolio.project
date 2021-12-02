@@ -4,6 +4,7 @@ import { Link } from 'react-scroll'
 // REACT FONTAWESOME IMPORTS
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
+import '../css/Navbar.css'
 
 const Navbar = () => {
   return (
@@ -31,7 +32,7 @@ const Navbar = () => {
         </button>
 
         <div className='collapse navbar-collapse' id='navbarSupportedContent'>
-          <ul className='navbar-nav m-auto'>
+          <ul className='navbar-nav ml-auto'>
             <li className='nav-item active'>
               <Link smooth={true} to='home' className='nav-link'>
                 Home <span className='sr-only'>(current)</span>

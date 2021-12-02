@@ -13,27 +13,30 @@ import Footer from './Components/Footer'
 function App() {
   return (
     <>
+    
       <Particles
-        className='particles-canvas'
-        params={{
-          particles: {
-            number: {
-              value: 30,
-              density: {
-                enable: true,
-                value_area: 900
-              }
-            },
-            shape: {
-              type: 'circle',
-              stroke: {
-                width: 6,
-                color: '#f9ab00'
-              }
-            }
-          }
-        }}
-      />
+  style={{ position: "absolute" }}
+  height="95%"
+  width="95%"
+  params={{
+    particles: {
+      color: {
+        value: "#f9ab00"
+      },
+      line_linked: {
+        color: {
+          value: "#f9ab00"
+        }
+      },
+      number: {
+        value: 200
+      },
+      size: {
+        value: 8
+      }
+    }
+  }}
+/>
       <Navbar />
       <Header />
       <AboutMe />

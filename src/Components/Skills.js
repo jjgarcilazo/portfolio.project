@@ -7,7 +7,7 @@ const Skills = () => {
   return (
     <div id='skills' className='skills'>
       <h1 className='py-5'>My skills</h1>
-      <div className='container'>
+      <div className='container-fluid'>
         <div className='row'>
           <div className='col-lg-3 col-md-6 col-sm-6'>
             <div className='box'>
@@ -58,13 +58,15 @@ const Skills = () => {
               </div>
               <h3>React</h3>
               <p>
-              React is an open-source JavaScript 
+                    React is an open-source JavaScript 
                     library that is used for building user interfaces 
                     specifically for single-page applications. 
                     It's used for handling the view layer for web and mobile apps.
               </p>
             </div>
-          </div>{/* - */}
+          </div>
+          
+          {/* - */}
           <div className='col-lg-3 col-md-6 col-sm-6'>
             <div className='box'>
               <div className='circle'>

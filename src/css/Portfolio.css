@@ -14,7 +14,7 @@
   }
   
   .portfolio-image {
-    width: 15rem;
+    width: 14rem;
     border: 1px solid var(--primary-green);
     padding: 0 0.5rem;
   }
@@ -22,5 +22,6 @@
   .portfolio-image-box {
     position: relative;
     margin: 1rem;
+    size: 25;
   }
   

@@ -3,6 +3,7 @@ import Typed from 'react-typed'
 import { Link } from 'react-scroll'
 import '../css/Header.css'
 
+
 const Header = () => {
   return (
     <div id='home' className='header-wrapper'>

@@ -63,24 +63,22 @@ const Experience = () => {
         <div className='timeline-block timeline-block-left'>
           <div className='marker'></div>
           <div className='timeline-content'>
-            <h3>2008 - 2015</h3>
-            <p>Systems Administrator&emsp;&ensp;PPAI&emsp;&ensp;Irving, Tx</p>
+            <h3>2021</h3>
+            <p>Code Academy&emsp;&ensp;Web Development  &emsp;&ensp;Los Angeles,CA</p>
             <ul>
               <li>
-                In charge of configuration management for workstations and
-                mobile devices. Managed all software and hardware licensing.
-                Implemented a virtualized testing environment.
+              -Successfully completed intensive 12 week full immersion bootcamp representing more than 660 hours of training.
+               </li>
+               <li>
+                 -Built, modified and maintained numerous scalable applications/websites from inception to completion with the guidance and instruction from senior developers.
               </li>
               <li>
-                Maintained server/network infrastructure. Responsibilities
-                included system installations and updates, audits, and server
-                backups.
+              -Trained in a project oriented environment modeled after real-world workplace focused on collaborative development utilizing common languages, frameworks, and libraries including HTML5, CSS3, JavaScript, Bootstrap, PHP, SQL and MySQL.
+
               </li>
               <li>
-                Analyzed ways to identify and implement network improvements by
-                creating monitors in order to minimize incidents. Scripted tasks
-                such as machine deployments and upgrades through the use of
-                imaging tools.
+              -Extensively utilized Github for version control in an agile development environment.
+
               </li>
             </ul>
           </div>
