@@ -22,6 +22,7 @@ nav ul li {
   color: var(--primary-white) !important;
   margin-right: 0.75rem;
   margin-left:  0.75rem;
+  border-top: 0.1875 solid var(--primary-dark);
 }
 
 
@@ -30,11 +31,18 @@ nav ul li {
   --primary-green: #6bd425;
   --primary-blue: #247ba0;
   --primary-black: #000;
+  --primary-dark: rgba(255,255,255,0);
 }
 
 body {
   font-family: 'Roboto' sans-serif !important;
 }
+
+
+.navbar-nav > li > a.active,
+  .navbar-nav > li > a.active:focus {
+    border-top: 0.1875rem solid var(--primary-green);
+  }
 
 /* ***************** Media **************************** */
 @media (max-width: 768px) {

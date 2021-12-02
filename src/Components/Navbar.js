@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from "../Components/jesse.png"
+import logo from "../assets/images/jesse.png"
 import { Link } from 'react-scroll'
 // REACT FONTAWESOME IMPORTS
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -17,6 +17,7 @@ const Navbar = () => {
         >
           <img className='logo' src={logo} alt='logo...' />
         </Link>
+        
         <button
           className='navbar-toggler'
           type='button'
@@ -30,7 +31,7 @@ const Navbar = () => {
         </button>
 
         <div className='collapse navbar-collapse' id='navbarSupportedContent'>
-          <ul className='navbar-nav ml-auto'>
+          <ul className='navbar-nav m-auto'>
             <li className='nav-item active'>
               <Link smooth={true} to='home' className='nav-link'>
                 Home <span className='sr-only'>(current)</span>
