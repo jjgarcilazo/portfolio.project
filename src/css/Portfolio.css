@@ -5,10 +5,13 @@
   .p72 {
     max-width: 40%;
     }
+    .Nucamp {
+      max-width: 40%;
+    }
   /* ***************** Portfolio **************************** */
   .portfolio-wrapper {
     background: var(--primary-light-grey);
-    padding: 3rem 0;
+    padding: 5rem ;
   }
   
   .portfolio-wrapper h1 {
@@ -16,7 +19,7 @@
   }
   
   .portfolio-image {
-    width: 14rem;
+    width: 18rem;
     border: 1px solid var(--primary-green);
     padding: 0 0.5rem;
   }
@@ -24,7 +27,10 @@
   .portfolio-image-box {
     position: relative;
     margin: 1rem;
-    max-width: 100%;
-  max-height: 100%;
+    max-width: 40%;
   }
   
+  .overflow {
+    width: 18rem;
+    height: 11rem;
+      }

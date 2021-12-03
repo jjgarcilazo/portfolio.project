@@ -1,6 +1,7 @@
 // FIXME: uupdate picture links
 import React from 'react'
 import p72 from '../assets/images/p72.png'
+import Nucamp from '../assets/images/Nucamp.png'
 import '../css/Portfolio.css'
 // Fontawesome Imports
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -14,7 +15,7 @@ const Portfolio = () => {
  
       
 
-  // Mintbean Hackathon Project
+  //  Project 72
   const openPopupboxp72 = () => {
     const content = (
       <>
@@ -63,6 +64,55 @@ const Portfolio = () => {
       }
     })
   }
+  //Nucamp Site React
+  const openPopupboxNucamp = () => {
+    const content = (
+      <>
+        <img
+          className='Nucamp'
+          src={Nucamp}
+          alt='nucamp-react'
+          
+        />
+        <p>
+          Fully Functional Monetized Japan Travel Blog 
+          Live Data Flight Search
+          Live Data Hotel Search 
+          Get Paid for Purchased Items via Affiliate Links
+        </p>
+        <a
+          href='/'
+          className='hyper-link'
+          onClick={() =>
+            window.open(
+              'https://our-mintbean-team.github.io/texteditor-mintbean/'
+            )
+          }
+        >
+          Link to demo
+        </a>
+        <br />
+        <a
+          href='/'
+          className='hyper-link'
+          onClick={() => window.open('https://github.com/our-mintbean-team')}
+        >
+          Github Code
+        </a>
+      </>
+    )
+    PopupboxManager.open({
+      content,
+      config: {
+        titleBar: {
+          enable: true,
+          text: 'Text Editor | Nucamp'
+        },
+        fadeIn: true,
+        fadeInSpeed: 500
+      }
+    })
+  }
 
   
 
@@ -84,6 +134,18 @@ const Portfolio = () => {
             <FontAwesomeIcon className='portfolio-icon' icon={faSearchPlus} />
           </div>
           {/* - */}
+          <div
+            className='portfolio-image-box'
+            onClick={openPopupboxNucamp}
+          >
+            <img
+              src={Nucamp}
+              alt='nucamp'
+              className='portfolio-image'
+            />
+            <div className='overflow'></div>
+            <FontAwesomeIcon className='portfolio-icon' icon={faSearchPlus} />
+          </div>          
          
           {/* - */}
           
